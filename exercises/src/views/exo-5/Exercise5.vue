@@ -1,7 +1,7 @@
 <template>
   <div class="exercise-5">
     <div class="">{{ restaurants }}</div>
-    <button @click="getRestaurants()">Affiche-moi donc les restaurants</button>
+    <button @click="getRestaurants()">Affiche-moi les restaurants</button>
     <div class="" v-for="restaurant in restaurants" :key="restaurant.id">
       <p>{{ restaurant.nom }}</p>
       <p>{{ restaurant.type }}</p>
